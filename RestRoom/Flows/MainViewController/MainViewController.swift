@@ -80,7 +80,6 @@ class MainViewController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(tapSettingButton), for: .touchUpInside)
         button.setImage(UIImage(systemName: "gear"), for: .normal)
-//        button.isHidden = true
         button.contentVerticalAlignment = .fill
         button.contentHorizontalAlignment = .fill
         button.titleLabel?.font = UIFont(name: Fonts.init().neuehaasunicaw1g, size: 10)
